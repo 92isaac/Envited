@@ -50,3 +50,34 @@
     }
   }
   
+  @media (min-width: 970px) {
+    .home{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+    }
+    .hero {
+      width: 60%;
+      text-align: center;
+      margin: 10px auto;
+    }
+    .hero h1 .snapchat {
+      display: block;
+      background: -webkit-linear-gradient(#8456ec, #e87bf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 60px;
+    }
+    .hero h1 {
+      padding: 20px 20px 0 20px;
+      font-size: 70px;
+      font-family: Helvetica, sans-serif;
+    margin-bottom: -10px;
+
+    }
+    .hero p {
+      font-size: 30px;
+      line-height: 30px;
+    }
+  }
+  

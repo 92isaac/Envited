@@ -1,0 +1,51 @@
+@media (max-width: 426px) {
+  .hero {
+    width: 350px;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .hero h1 .snapchat {
+    display: block;
+    background: -webkit-linear-gradient(#8456ec, #e87bf8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 40px;
+  }
+  .hero h1 {
+    padding: 20px 20px 0 20px;
+    font-size: 40px;
+    font-family: Helvetica, sans-serif;
+    line-height: 60px;
+    margin-bottom: -15px;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 769px) {
+    .hero {
+      width: 700px;
+      text-align: center;
+      margin: 10px auto;
+    }
+    .hero h1 .snapchat {
+      display: block;
+      background: -webkit-linear-gradient(#8456ec, #e87bf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 60px;
+    }
+    .hero h1 {
+      padding: 20px 20px 0 20px;
+      font-size: 70px;
+      font-family: Helvetica, sans-serif;
+    margin-bottom: -10px;
+
+    }
+    .hero p {
+      font-size: 30px;
+      line-height: 30px;
+    }
+  }
+  

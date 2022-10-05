@@ -1,0 +1,53 @@
+@media (max-width: 426px) {
+
+    
+.cardform{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.card img{
+    width: 100%;
+}
+
+.movie{
+    text-align: start;
+    padding-left: 50px;
+}
+
+.birthday-details{
+    margin-top: -22px;
+    background-color: #FBFAFF;
+}
+
+.res{
+    display: flex;
+    justify-content: space-between;
+    /* height: 50px; */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.event{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 0.5fr;
+}
+
+.invite{
+    margin-left: 0px;
+    padding: 7px 20px;
+    background-color: #8456EC;
+    color: #fff;
+    border-radius: 10px;
+
+}
+
+.see{
+   color: #8456EC; 
+}
+.event-text h4, .event-text p{
+    line-height: 5px;
+    
+}
+}

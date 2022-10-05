@@ -2,6 +2,8 @@ import React from "react";
 import "../assets/styles/Cardform.css";
 import Birthday from "../assets/Birthday-cake.png";
 import { FaRegCalendarCheck, FaGreaterThan } from "react-icons/fa";
+import Button from "./Button";
+import { useNavigate } from 'react-router-dom'
 
 const style = {
   background: "#fff",
@@ -15,6 +17,7 @@ const style = {
 const lessthan = { marginTop: "35px", fontWeight: "100", paddingRight: "10px" };
 
 const CardForm = () => {
+    const navigate = useNavigate()
   return (
     <div>
       <div className="cardform">
@@ -73,6 +76,7 @@ const CardForm = () => {
             </div>
           </div>
         </div>
+        <Button className="btn" name="&#127864; Create my event" onClick={() => navigate('/register')}/>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './routes/Home';
+import UserInput from './component/UserInput';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Router>
         <Routes>
           <Route exact path='/' element={<Home/>}/>
+          <Route  path='/register' element={<UserInput/>}/>
         </Routes>
       </Router>
     </div>

@@ -1,8 +1,8 @@
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 426px) and (min-width: 200px) {
   .hero {
-    width: 400px;
+    width: 85%;
     text-align: center;
-    margin: 10px auto;
+    margin: 0px auto;
   }
   .hero h1 .snapchat {
     display: block;
@@ -13,18 +13,22 @@
   }
   .hero h1 {
     width: 80%;
-    /* padding: 20px 20px 0 20px; */
-    /* font-size: 40px; */
+    padding: 20px 20px 0 20px;
+    font-size: 40px;
     font-family: Helvetica, sans-serif;
-    line-height: 60px;
+    /* line-height: 60px; */
     margin-bottom: -15px;
+    text-align: center;
   }
   .hero p {
     font-size: 16px;
   }
 }
 
-@media (max-width: 769px) {
+
+
+
+@media only screen and (max-width: 769px) and (min-width: 426px) {
     .hero {
       width: 700px;
       text-align: center;
@@ -59,7 +63,7 @@
     .hero {
       width: 60%;
       text-align: center;
-      margin: 10px auto;
+      margin: 150px auto;
     }
     .hero h1 .snapchat {
       display: block;
